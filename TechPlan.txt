@@ -1,0 +1,14 @@
+Technical plan
+
+	Install PostgreSQL database (+)
+	Start create Expreess server (+)
+	connect to DB (+)
+	Create table Workers in PostgreSQL and start Authentication (+)
+	Create technical director (+)
+	Create all tables in PostgreSQL (+)
+
+	Authentication (start for working, then passport)
+	To make keys between tables in PostgreSQL
+	Start to add logic, STEP BY STEP, create all info in DB. 
+	To make deep logger
+	React app

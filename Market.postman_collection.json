@@ -1,0 +1,499 @@
+{
+	"info": {
+		"_postman_id": "dcf0830f-0f8c-4cda-b528-5da05df28d94",
+		"name": "Market",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "29171097"
+	},
+	"item": [
+		{
+			"name": "add_all",
+			"item": [
+				{
+					"name": "insert_worker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"worker_name\": \"John Smith\",\r\n  \"barcode\": 12345,\r\n//   \"created_date\": \"new Date()\",\r\n//   \"updated_date\": \"new Date()\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1,\r\n  \"role_id\": 2,\r\n  \"status_id\": 1,\r\n  \"email\": \"john@example.com\",\r\n  \"phone_number\": \"123-456-7890\",\r\n  \"sale_promocode\": { \"code\": \"SALE123\", \"discount\": 10 }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/insert_worker"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_role",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"role_name\": \"customer support\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/roles"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_branch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"branch_name\": \"Vienna Center\",\r\n  \"barcode\": 123456789,\r\n  \"branch_location\": \"Vienna\",\r\n  \"address\": \"Getreidemarkt 10, 1010 Wien, Austria\",\r\n  \"timezone\": \"Vienna\",\r\n  \"branch_status_id\": 1,\r\n  \"work_hours\": \"Mon-Fri 7:00-22:00; Sat_Sun 8:00-21:00\",\r\n  \"phone_number\": \"321-654-0987\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/branches"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_genstatus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"status_name\": \"pending\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/general_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_branch_status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"branch_status\": \"overordered\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/branch_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_storage_type",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"storage_type_name\": \"frozen shelf\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/storage_types"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_product_type",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"product_type_name\": \"drink\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/product_types"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_condtion_status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"condition_status_name\": \"broken\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/condition_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_order_status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"order_status_name\": \"not active\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/order_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_worker_status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"worker_status_name\": \"collects and prepare order\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/worker_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_deliveryman_status",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"deliveryman_status_name\": \"picking up order\",\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/deliveryman_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_shelf",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"shelf_name\": \"DD\",\r\n  \"number_of_cells\": 6,\r\n  \"storage_type_id\": 3,\r\n  \"status_name_id\": 1,\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/shelfs"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"order_number\": \"5469abc\",\r\n  \"item_amount_json\": {\"pizza\": 5, \"milk\": 2},\r\n  \"created_by_id\": 2,\r\n  \"updated_by_id\": 2,\r\n  \"order_status_id\": 1,\r\n  \"user_id\": 2,\r\n  \"worker_id\": 1,\r\n  \"deliveryman_id\": 2,\r\n  \"delivery_address\": \"Getreidemarkt 10, 1010 Wien, Austria\"\r\n//   \"start_gather_order_time\": \"\",\r\n//   \"finish_gather_order_time\": \"\",\r\n//   \"deliveryman_take_time\": \"\",\r\n//   \"delivery_finish_time\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/orders"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_deliveryman",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"deliveryman_name\": \"Andrey Popov\",\r\n  \"barcode\": 1575686,\r\n  \"created_by_id\": 2,\r\n  \"updated_by_id\": 2,\r\n  \"role_id\": 5,\r\n  \"deliveryman_status_id\": 1,\r\n  \"email\": \"AndreyPopov555@gmail.com\",\r\n  \"phone_number\": \"123-456-7890\",\r\n  \"sale_promocode\": {\"code\": \"SALE12345\", \"discount\": 20}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/deliverymans"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_item",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"item_name\": \"TERRA real vegetable ships Sweet Potato BBQ\",\r\n  \"item_description\": \"*Barbecue-flavored sweet potato-based snack *Gluten-free *Preservative-free\",\r\n  \"item_ingredients\": \"Sweet potato (sweet potato 88%), refined rice bran oil, flavor mixture (white sugar, tomato powder, table salt, maltodextrin, onion powder, molasses, yeast extract, acidity regulator (citric acid), garlic powder, spices (black pepper ground, oregano), grape vinegar, chili (sweet paprika), flavoring agents, anti-caking agent (silicon dioxide).\",\r\n  \"barcode\": 1575645686,\r\n  \"weight\": 110,\r\n  \"product_type_id\": 1,\r\n  \"storage_type_id\": 1,\r\n  \"shelf_id_amount_json\": { \"1\": 14, \"3\": 20},\r\n  \"expires_date\": \"2023-08-10 15:30:45.123\",\r\n  \"price\": 18.90,\r\n  \"sale_price\": 18.90,\r\n  \"is_sale\": false,\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/items"
+					},
+					"response": []
+				},
+				{
+					"name": "insert_user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"user_name\": \"Maria Rudman\",\r\n  \"general_status_id\": 1,\r\n  \"email\": \"mariarudman@gmail.com\",\r\n  \"phone_number\": \"1575645686\",\r\n  \"sale_promocode\": {},\r\n  \"payment_info\": {},\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "127.0.0.1:8080/add/users"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "get_all",
+			"item": [
+				{
+					"name": "get_all_workers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/workers"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/roles"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_branches",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/branches"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_general_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/general_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_branch_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/branch_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_storage_types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/storage_types"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_product_types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/product_types"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_condition_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/condition_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_order_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/order_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_worker_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/worker_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_deliveryman_statuses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/deliveryman_statuses"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_shelfs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/shelfs"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_orders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/orders"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_deliverymans",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/deliverymans"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_items",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/items"
+					},
+					"response": []
+				},
+				{
+					"name": "get_all_users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "127.0.0.1:8080/get/users"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_name\": \"Tom Rudmannn\",\r\n//   \"user_password\": \"dfk;lhjestheiurhgdnjvdopl;kgfpojtehty3459r9w0eriw09iu454yuhngjf\",\r\n  \"general_status_id\": 1,\r\n  \"email\": \"tomrudmannn@gmail.com\", \r\n  \"password_hash\": \"\",\r\n  \"phone_number\": \"1575645686\",\r\n  \"sale_promocode\": {},\r\n  \"payment_info\": {},\r\n  \"created_by_id\": 1,\r\n  \"updated_by_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "127.0.0.1:8080/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "log_in_user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.environment.set(\"jwt\", pm.response.json().token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"Valeria@mail.ru\",\r\n    \"password\": \"12345678Valeria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{URL}}user/login/"
+			},
+			"response": []
+		}
+	]
+}
