@@ -652,7 +652,7 @@ ALTER SEQUENCE public.worker_statuses_id_seq OWNED BY public.worker_statuses.id;
 CREATE TABLE public.workers (
     id integer NOT NULL,
     worker_name character varying(50) NOT NULL,
-    barcode integer NOT NULL,
+    barcode_hash character varying(250),
     created_date timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     updated_date timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     created_by_id integer NOT NULL,
@@ -943,7 +943,6 @@ COPY public.roles (id, role_name, created_date, updated_date) FROM stdin;
 5	deliveryman	2023-08-12 21:30:59.656287	2023-08-12 21:30:59.656287
 6	technical support	2023-08-12 21:31:04.953849	2023-08-12 21:31:04.953849
 7	customer support	2023-08-12 21:31:11.872993	2023-08-12 21:31:11.872993
-9	customer support	2023-08-17 10:57:34.677677	2023-08-17 10:57:34.677677
 \.
 
 
@@ -982,28 +981,8 @@ COPY public.storage_types (id, storage_type_name, created_date, updated_date, cr
 --
 
 COPY public.users (id, user_name, general_status_id, password_hash, email, phone_number, sale_promocode, payment_info, created_date, updated_date, created_by_id, updated_by_id) FROM stdin;
-1	Maria Rudman	1		mariarudman@gmail.com	1575645686	{}	{}	2023-08-17 13:38:39.655554	2023-08-17 13:38:39.655554	1	1
-83	Tom Rudmannn	1	$2a$10$jZIu.vmy5ij5GdkWfpV.6OvRcLsfvcoIAsRP.YDLfKrEpy7VxNqnG	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 15:09:41.443111	2023-08-17 15:09:41.443111	1	1
-84	Maria Rudman	1		mariarudman@gmail.com	1575645686	{}	{}	2023-08-17 16:03:17.135618	2023-08-17 16:03:17.135618	1	1
-85	Maria Rudman	1		mariarudman@gmail.com	1575645686	{}	{}	2023-08-17 16:03:26.648639	2023-08-17 16:03:26.648639	1	1
-86	Arturio Rud	1	$2a$10$y5aNhMyCwiIIZv0i8NCp0O3KyJkvOoyUlMtJWyAUpZ7S8wkKnWhna	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:15:22.118591	2023-08-17 20:15:22.118591	1	1
-87	Arturio Rudiger	1	$2a$10$DpgW6QsaAH9t2wDLPnoYBe4hrSy0pgwWnYu0MvGgRDama1OuwZvlm	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:25:56.992738	2023-08-17 20:25:56.992738	1	1
-88	Arturio Rudiger	1	$2a$10$98NYtpdUlBpm2iFnb.emv.W7rLl70VbDwVaawiIqFJI/KErezhhjq	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:27:16.01012	2023-08-17 20:27:16.01012	1	1
-89	Arturio Rudiger	1	$2a$10$5YHeElv2enijrrPfubxMuOyLqPCU36e67pMBQ2DMgWGKyWkByrdTa	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:29:24.262255	2023-08-17 20:29:24.262255	1	1
-90	Arturio Rudiger	1	$2a$10$JcWbyNkNwjRA7ieHZKPms.O0fRD5tfBDPiZVQgt1uFc.Me/o9/OUi	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:31:25.347053	2023-08-17 20:31:25.347053	1	1
-91	Arturio Rudiger	1	$2a$10$dbhPkXHIf0wtgL0jSAYXR.N1y3n48FG1JWTrzfGVNuoAtLNqxEfQG	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:32:55.103904	2023-08-17 20:32:55.103904	1	1
-92	Arturio Rudiger	1	$2a$10$Fc4ErO31pNHHa9SdUfboeuNgkqDUYUQrmoZw7N6ESyIwcyqfLYtqm	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:34:16.599164	2023-08-17 20:34:16.599164	1	1
-93	Arturio Rudigerrr	1	$2a$10$UYGDfPVToN9vdvHpT/r6MOaU8SWDf.Sg4qjMDwP1zQ97tjmzPNnLi	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:35:03.89579	2023-08-17 20:35:03.89579	1	1
-94	Arturio Rudigerrr	1	$2a$10$YMe4HA48vSA2s1Ov1Wyi9ekMs6p5EvSSKDZ81Orz70TeEIkF/sPkO	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:35:46.168342	2023-08-17 20:35:46.168342	1	1
-95	Arturio Rudigerrr	1	$2a$10$XsIA8m2g0GiVtanKBMx.wOgROXEH4MI5hPh6K53xrioyOKp5GDYV.	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:37:34.277081	2023-08-17 20:37:34.277081	1	1
-96	Arturio Rudigerrr	1	$2a$10$jqJHjBd3xT.j5cN6L6oHduOnyRH0GhRu5eE8SFVBs6xWBU6tzAsJG	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:37:42.688298	2023-08-17 20:37:42.688298	1	1
-97	Arturio Rudigerrr	1	$2a$10$TCF1Cci1gHz50sw1X.e7IOUwt5w4.E0k2Sw1.FD0k.nZxmTy/tJZu	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:38:36.204685	2023-08-17 20:38:36.204685	1	1
-98	Arturio Rudigerrr	1	$2a$10$06K9g2HzmiuAp2EbFVF9O.ZxPuuidWqDang1aB1vVYzkVbaXNPwgq	tomrudmannn@gmail.com	1575645686	{}	{}	2023-08-17 20:39:04.554134	2023-08-17 20:39:04.554134	1	1
-99	Winston Rudman	1	$2a$10$wdU10..OYCIv/s7.LvobMOl6hOnMbve3R1TEMDCioql/XZ2gTqwue	winstonrudman@gmail.com	1575645686	{}	{}	2023-08-17 20:43:08.522168	2023-08-17 20:43:08.522168	1	1
-100	AAA	1		aaa@gmail.com	1575645686	{}	{}	2023-08-17 20:53:30.909694	2023-08-17 20:53:30.909694	1	1
-101	AAA	1		aaa@gmail.com	1575645686	{}	{}	2023-08-17 20:53:58.591626	2023-08-17 20:53:58.591626	1	1
-102	AAA	1		aaa@gmail.com	1575645686	{}	{}	2023-08-17 21:14:10.654064	2023-08-17 21:14:10.654064	1	1
-103	AAA	1		aaa@gmail.com	1575645686	{}	{}	2023-08-17 21:14:23.476199	2023-08-17 21:14:23.476199	1	1
+1	Artem Rudman	1	$2a$10$2xEYalhtLRwFcPHc7814ZeJOo7IbVRwWpv/tsJ4huSLB1FsplhiPO	artemrudman1994@gmail.com	+(972)51-585-99-41	{}	{}	2023-08-19 19:39:43.457549	2023-08-19 19:39:43.457549	1	1
+2	Maria Zatsepina	1	$2a$10$GlgKWMdg1ribvAnYBeg6E.OaXVIhZ340sJHrr.IDIMT63dLFOiIQm	mariazatsepina1997@gmail.com	+(972)51-585-99-40	{}	{}	2023-08-19 20:37:17.241615	2023-08-19 20:37:17.241615	1	1
 \.
 
 
@@ -1025,34 +1004,9 @@ COPY public.worker_statuses (id, worker_status_name, created_date, updated_date,
 -- Data for Name: workers; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.workers (id, worker_name, barcode, created_date, updated_date, created_by_id, updated_by_id, role_id, status_id, email, phone_number, sale_promocode) FROM stdin;
-1	John Smith	123456	2023-08-11 00:00:00	2023-08-11 00:00:00	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-32	John Smith	12345	2023-08-12 21:07:17.877939	2023-08-12 21:07:17.877939	1	1	2	1	john@example.com	123-456-7890	"{ code: 'SALE123', discount: 10 }"
-33	John Smith	12345	2023-08-12 21:07:55.033818	2023-08-12 21:07:55.033818	1	1	2	1	john@example.com	123-456-7890	"{ code: 'SALE123', discount: 10 }"
-36	John Smithhhhhhhh	12345	2023-08-16 21:37:59.345221	2023-08-16 21:37:59.345221	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-37	John Smithhhhhhhh	12345	2023-08-16 21:46:10.363785	2023-08-16 21:46:10.363785	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-38	John Smithhhhhhhh	12345	2023-08-16 21:49:46.97996	2023-08-16 21:49:46.97996	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-39	John Smithhhhhhhh	12345	2023-08-16 21:50:07.650951	2023-08-16 21:50:07.650951	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-40	John Smithhhhhhhh	12345	2023-08-16 21:50:32.388286	2023-08-16 21:50:32.388286	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-41	John Smithhhhhhhh	12345	2023-08-16 21:52:22.501934	2023-08-16 21:52:22.501934	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-42	John Smithhhhhhhh	12345	2023-08-16 21:54:17.999042	2023-08-16 21:54:17.999042	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-43	John Smithhhhhhhh	12345	2023-08-16 22:00:51.668381	2023-08-16 22:00:51.668381	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-44	John Smithhhhhhhh	12345	2023-08-16 22:04:52.176799	2023-08-16 22:04:52.176799	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-45	John Smithhhhhhhh	12345	2023-08-16 22:07:06.141661	2023-08-16 22:07:06.141661	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-46	John Smithhhhhhhh	12345	2023-08-16 22:33:46.486234	2023-08-16 22:33:46.486234	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-47	John Smithhhhhhhh	12345	2023-08-16 22:41:04.97759	2023-08-16 22:41:04.97759	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-48	John Smithhhhhhhh	12345	2023-08-16 22:42:36.256064	2023-08-16 22:42:36.256064	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-49	John Smithhhhhhhh	12345	2023-08-16 22:49:44.979193	2023-08-16 22:49:44.979193	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-50	John Smithhhhhhhh	12345	2023-08-16 22:51:14.31175	2023-08-16 22:51:14.31175	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-51	John Smithhhhhhhh	12345	2023-08-16 23:15:22.939393	2023-08-16 23:15:22.939393	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-52	John Smithhhhhhhh	12345	2023-08-16 23:19:18.408801	2023-08-16 23:19:18.408801	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-53	John Smithhhhhhhh	12345	2023-08-16 23:39:52.893575	2023-08-16 23:39:52.893575	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-54	John Smithhhhhhhh	12345	2023-08-16 23:41:17.137945	2023-08-16 23:41:17.137945	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-55	John Smithhhhhhhfffffh	12345	2023-08-17 09:32:47.877044	2023-08-17 09:32:47.877044	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-56	John Smithhhhhhhfffffh	12345	2023-08-17 09:40:48.990375	2023-08-17 09:40:48.990375	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-57	John Smithhhhhhhfffffh	12345	2023-08-17 09:45:23.828236	2023-08-17 09:45:23.828236	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-58	John Smithhhhhhhfffffh	12345	2023-08-17 09:51:40.766674	2023-08-17 09:51:40.766674	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
-59	John Smithhhhhhhfffffh	12345	2023-08-17 09:52:13.414804	2023-08-17 09:52:13.414804	1	1	2	1	john@example.com	123-456-7890	{"code":"SALE123","discount":10}
+COPY public.workers (id, worker_name, barcode_hash, created_date, updated_date, created_by_id, updated_by_id, role_id, status_id, email, phone_number, sale_promocode) FROM stdin;
+1	Artem Rudman	$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu	2023-08-19 20:20:13.114701	2023-08-19 20:20:13.114701	1	1	1	1	artemrudman1994@gmail.com	+(972)51-585-99-41	{"code":"SALE10","discount":10}
+2	Dima Khamkov	$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS	2023-08-19 20:21:47.984001	2023-08-19 20:21:47.984001	1	1	6	1	dimakhamkov2008@gmail.com	+(7)913-590-37-91	{"code":"SALE5","discount":5}
 \.
 
 
@@ -1151,7 +1105,7 @@ SELECT pg_catalog.setval('public.storage_types_id_seq', 4, true);
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 103, true);
+SELECT pg_catalog.setval('public.users_id_seq', 2, true);
 
 
 --
@@ -1165,7 +1119,7 @@ SELECT pg_catalog.setval('public.worker_statuses_id_seq', 6, true);
 -- Name: workers_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.workers_id_seq', 59, true);
+SELECT pg_catalog.setval('public.workers_id_seq', 2, true);
 
 
 --
