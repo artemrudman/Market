@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/appError.js";
 import { client } from "../database.mjs";
+import { getWorkerQueryById } from "../utils/queryConstants.js";
 
 
 export const protect = catchAsync(async (req, res, next) => {
@@ -20,18 +21,18 @@ export const protect = catchAsync(async (req, res, next) => {
   
     // 2) Verification this token
     const decoded = await promisify(jwt.verify)(token, process.env.JWT_TOKEN_SECRET);
-    console.log(decoded);
+    // console.log(decoded);
   
     // // 3) Check if user still exists
   
-    const currentUserQuery = "SELECT * FROM users WHERE id = $1";
     const values = [decoded.id];
   
-    const { rows: currentUser } = await client.query(currentUserQuery, values);
+    const { rows: currentUser } = await client.query(getWorkerQueryById, values);
   
     if (currentUser.length === 0) {
       return next(new AppError("The user associated with this token does not exist", 404));
     }
+
   
     // // 4) Check if user changed password after the token was issued
     // if (currentUser.changedPasswordAfter(decoded.iat)) {

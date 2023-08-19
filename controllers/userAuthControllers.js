@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { promisify } from "util";
-import jwt from "jsonwebtoken";
+// import jwt from "jsonwebtoken";
 import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/appError.js";
 import bcrypt from "bcryptjs";
@@ -8,6 +8,7 @@ import { client } from "../database.mjs";
 import { createSendToken } from "../services/tokenService.js";
 import isCorrectPassword from "../services/isCorrectPassword.js";
 import { sendEmail } from "../utils/email.js";
+import { getUserQueryByEmail } from "../utils/queryConstants.js";
 
 export const signup = catchAsync(async (req, res, next) => {
   try {
@@ -54,7 +55,7 @@ export const login = catchAsync(async (req, res, next) => {
     throw next(new AppError("please type your email and password", 400));
   }
   // 2) check if the user and password are correct
-  const user = await client.query(`select * from users where email = '${email}'`);
+  const user = await client.query(getUserQueryByEmail, [email]);
 
   if (user.rowCount === 0 || !(await isCorrectPassword(user_password, user.rows[0].password_hash))) {
     throw next(new AppError("Please type e-mail and password correct", 401));
@@ -67,9 +68,9 @@ export const login = catchAsync(async (req, res, next) => {
 
 export const forgotPassword = catchAsync(async (req, res, next) => {
   // 1) Get user based on POSTed email
-  const getUserQuery = "SELECT * FROM users WHERE email = $1";
-  const values = [req.body.email];
-  const { rows: users } = await client.query(getUserQuery, values);
+
+  const { email } = req.body;
+  const { rows: users } = await client.query(getUserQueryByEmail, email);
 
   if (users.length === 0) {
     return next(new AppError("User with this email address doesn't exist", 404));
@@ -172,9 +173,8 @@ export const resetPassword = catchAsync(async (req, res, next) => {
 
 export const updatePassword = catchAsync(async (req, res, next) => {
   // 1) Get user from database
-  const getUserQuery = "SELECT * FROM users WHERE id = $1";
-  const values = [req.user.id];
-  const { rows: users } = await client.query(getUserQuery, values);
+  const {id} = req.user;
+  const { rows: users } = await client.query(getUserQueryByEmail, id);
 
   if (users.length === 0) {
     return next(new AppError("User not found", 404));

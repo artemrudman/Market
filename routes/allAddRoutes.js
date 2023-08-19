@@ -41,5 +41,5 @@ const routes = [
 ];
 
 routes.forEach((route) => {
-  insertRouter.route(route.path).post(protect, route.handler);
+  insertRouter.route(route.path).post(route.handler);
 });

@@ -2,9 +2,11 @@ import express from "express";
 import { logger } from "./logs/logger.js";
 import dotenv from "dotenv";
 import { client } from "./database.mjs";
-import { signup, login } from "./controllers/authControllers.js";
-import { insertRouter } from "./routes/addRoutes.js";
-import { getRouter } from "./routes/getRoutes.js"; 
+import { signup, login } from "./controllers/userAuthControllers.js";
+import { insertRouter } from "./routes/allAddRoutes.js";
+import { getRouter } from "./routes/allGetRoutes.js";
+import { protect } from "./services/protectEndpoints.js"; 
+import { registerNewWorkerByTechnicalDirector, loginWorker } from "./controllers/workerAuthControllers.js";
 
 
 dotenv.config({ path: "./config.env" });
@@ -12,13 +14,17 @@ dotenv.config({ path: "./config.env" });
 const app = express();
 app.use(express.json());
 
+app.post("/register_new_worker", protect, registerNewWorkerByTechnicalDirector);
+app.post("/login_worker", loginWorker);
 
 app.post("/signup", signup);
 app.post("/login", login);
 
 
-app.use("/get", getRouter);
-app.use("/add", insertRouter);
+app.use("/get", protect, getRouter);
+app.use("/add", protect, insertRouter);
+app.use("/regular_shop", insertRouter);
+
 
 
 client

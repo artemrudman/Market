@@ -1,0 +1,32 @@
+Workers 
+    Technical Director 
+    {
+      "worker_name": "Artem Rudman",
+      "email": "artemrudman1994@gmail.com",
+      "barcode": 123456789,
+    }
+
+    Technical Support 
+    {
+      "worker_name": "Dima Khamkov",
+      "email": "dimakhamkov2008@gmail.com",
+      "barcode": 987654321,
+    }
+
+
+
+
+
+
+
+
+Users
+{
+  "email": "artemrudman1994@gmail.com",
+  "user_password": "45693926"
+}
+
+{
+  "email": "mariazatsepina1997@gmail.com", 
+  "user_password": "varqloek"
+}

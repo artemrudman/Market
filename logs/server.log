@@ -4292,3 +4292,458 @@
 {"level":"info","message":"Connected to the database","timestamp":"2023-08-17T18:49:46.976Z"}
 {"level":"info","message":"app is running on port 8080","timestamp":"2023-08-17T18:49:49.406Z"}
 {"level":"info","message":"Connected to the database","timestamp":"2023-08-17T18:49:49.439Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T15:57:27.432Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T15:57:27.575Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T15:58:56.324Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T15:58:56.364Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T15:59:13.428Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T15:59:13.464Z"}
+{"0":{"barcode":123456,"created_by_id":1,"created_date":"2023-08-10T21:00:00.000Z","email":"john@example.com","id":1,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-10T21:00:00.000Z","worker_name":"John Smith"},"1":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:17.877Z","email":"john@example.com","id":32,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:17.877Z","worker_name":"John Smith"},"10":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:00:51.668Z","email":"john@example.com","id":43,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:00:51.668Z","worker_name":"John Smithhhhhhhh"},"11":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:04:52.176Z","email":"john@example.com","id":44,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:04:52.176Z","worker_name":"John Smithhhhhhhh"},"12":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:07:06.141Z","email":"john@example.com","id":45,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:07:06.141Z","worker_name":"John Smithhhhhhhh"},"13":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:33:46.486Z","email":"john@example.com","id":46,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:33:46.486Z","worker_name":"John Smithhhhhhhh"},"14":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:41:04.977Z","email":"john@example.com","id":47,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:41:04.977Z","worker_name":"John Smithhhhhhhh"},"15":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:42:36.256Z","email":"john@example.com","id":48,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:42:36.256Z","worker_name":"John Smithhhhhhhh"},"16":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:49:44.979Z","email":"john@example.com","id":49,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:49:44.979Z","worker_name":"John Smithhhhhhhh"},"17":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:51:14.311Z","email":"john@example.com","id":50,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:51:14.311Z","worker_name":"John Smithhhhhhhh"},"18":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:15:22.939Z","email":"john@example.com","id":51,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:15:22.939Z","worker_name":"John Smithhhhhhhh"},"19":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:19:18.408Z","email":"john@example.com","id":52,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:19:18.408Z","worker_name":"John Smithhhhhhhh"},"2":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:55.033Z","email":"john@example.com","id":33,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:55.033Z","worker_name":"John Smith"},"20":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:39:52.893Z","email":"john@example.com","id":53,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:39:52.893Z","worker_name":"John Smithhhhhhhh"},"21":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:41:17.137Z","email":"john@example.com","id":54,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:41:17.137Z","worker_name":"John Smithhhhhhhh"},"22":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:32:47.877Z","email":"john@example.com","id":55,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:32:47.877Z","worker_name":"John Smithhhhhhhfffffh"},"23":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:40:48.990Z","email":"john@example.com","id":56,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:40:48.990Z","worker_name":"John Smithhhhhhhfffffh"},"24":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:45:23.828Z","email":"john@example.com","id":57,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:45:23.828Z","worker_name":"John Smithhhhhhhfffffh"},"25":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:51:40.766Z","email":"john@example.com","id":58,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:51:40.766Z","worker_name":"John Smithhhhhhhfffffh"},"26":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:52:13.414Z","email":"john@example.com","id":59,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:52:13.414Z","worker_name":"John Smithhhhhhhfffffh"},"3":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:37:59.345Z","email":"john@example.com","id":36,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:37:59.345Z","worker_name":"John Smithhhhhhhh"},"4":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:46:10.363Z","email":"john@example.com","id":37,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:46:10.363Z","worker_name":"John Smithhhhhhhh"},"5":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:49:46.979Z","email":"john@example.com","id":38,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:49:46.979Z","worker_name":"John Smithhhhhhhh"},"6":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:07.650Z","email":"john@example.com","id":39,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:07.650Z","worker_name":"John Smithhhhhhhh"},"7":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:32.388Z","email":"john@example.com","id":40,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:32.388Z","worker_name":"John Smithhhhhhhh"},"8":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:52:22.501Z","email":"john@example.com","id":41,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:52:22.501Z","worker_name":"John Smithhhhhhhh"},"9":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:54:17.999Z","email":"john@example.com","id":42,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:54:17.999Z","worker_name":"John Smithhhhhhhh"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T15:59:36.018Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:01:48.435Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:01:48.472Z"}
+{"0":{"barcode":123456,"created_by_id":1,"created_date":"2023-08-10T21:00:00.000Z","email":"john@example.com","id":1,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-10T21:00:00.000Z","worker_name":"John Smith"},"1":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:17.877Z","email":"john@example.com","id":32,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:17.877Z","worker_name":"John Smith"},"10":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:00:51.668Z","email":"john@example.com","id":43,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:00:51.668Z","worker_name":"John Smithhhhhhhh"},"11":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:04:52.176Z","email":"john@example.com","id":44,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:04:52.176Z","worker_name":"John Smithhhhhhhh"},"12":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:07:06.141Z","email":"john@example.com","id":45,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:07:06.141Z","worker_name":"John Smithhhhhhhh"},"13":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:33:46.486Z","email":"john@example.com","id":46,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:33:46.486Z","worker_name":"John Smithhhhhhhh"},"14":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:41:04.977Z","email":"john@example.com","id":47,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:41:04.977Z","worker_name":"John Smithhhhhhhh"},"15":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:42:36.256Z","email":"john@example.com","id":48,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:42:36.256Z","worker_name":"John Smithhhhhhhh"},"16":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:49:44.979Z","email":"john@example.com","id":49,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:49:44.979Z","worker_name":"John Smithhhhhhhh"},"17":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:51:14.311Z","email":"john@example.com","id":50,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:51:14.311Z","worker_name":"John Smithhhhhhhh"},"18":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:15:22.939Z","email":"john@example.com","id":51,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:15:22.939Z","worker_name":"John Smithhhhhhhh"},"19":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:19:18.408Z","email":"john@example.com","id":52,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:19:18.408Z","worker_name":"John Smithhhhhhhh"},"2":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:55.033Z","email":"john@example.com","id":33,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:55.033Z","worker_name":"John Smith"},"20":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:39:52.893Z","email":"john@example.com","id":53,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:39:52.893Z","worker_name":"John Smithhhhhhhh"},"21":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:41:17.137Z","email":"john@example.com","id":54,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:41:17.137Z","worker_name":"John Smithhhhhhhh"},"22":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:32:47.877Z","email":"john@example.com","id":55,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:32:47.877Z","worker_name":"John Smithhhhhhhfffffh"},"23":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:40:48.990Z","email":"john@example.com","id":56,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:40:48.990Z","worker_name":"John Smithhhhhhhfffffh"},"24":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:45:23.828Z","email":"john@example.com","id":57,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:45:23.828Z","worker_name":"John Smithhhhhhhfffffh"},"25":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:51:40.766Z","email":"john@example.com","id":58,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:51:40.766Z","worker_name":"John Smithhhhhhhfffffh"},"26":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:52:13.414Z","email":"john@example.com","id":59,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:52:13.414Z","worker_name":"John Smithhhhhhhfffffh"},"3":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:37:59.345Z","email":"john@example.com","id":36,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:37:59.345Z","worker_name":"John Smithhhhhhhh"},"4":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:46:10.363Z","email":"john@example.com","id":37,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:46:10.363Z","worker_name":"John Smithhhhhhhh"},"5":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:49:46.979Z","email":"john@example.com","id":38,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:49:46.979Z","worker_name":"John Smithhhhhhhh"},"6":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:07.650Z","email":"john@example.com","id":39,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:07.650Z","worker_name":"John Smithhhhhhhh"},"7":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:32.388Z","email":"john@example.com","id":40,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:32.388Z","worker_name":"John Smithhhhhhhh"},"8":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:52:22.501Z","email":"john@example.com","id":41,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:52:22.501Z","worker_name":"John Smithhhhhhhh"},"9":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:54:17.999Z","email":"john@example.com","id":42,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:54:17.999Z","worker_name":"John Smithhhhhhhh"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T16:01:59.615Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:02:23.540Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:02:23.575Z"}
+{"0":{"barcode":123456,"created_by_id":1,"created_date":"2023-08-10T21:00:00.000Z","email":"john@example.com","id":1,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-10T21:00:00.000Z","worker_name":"John Smith"},"1":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:17.877Z","email":"john@example.com","id":32,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:17.877Z","worker_name":"John Smith"},"10":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:00:51.668Z","email":"john@example.com","id":43,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:00:51.668Z","worker_name":"John Smithhhhhhhh"},"11":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:04:52.176Z","email":"john@example.com","id":44,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:04:52.176Z","worker_name":"John Smithhhhhhhh"},"12":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:07:06.141Z","email":"john@example.com","id":45,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:07:06.141Z","worker_name":"John Smithhhhhhhh"},"13":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:33:46.486Z","email":"john@example.com","id":46,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:33:46.486Z","worker_name":"John Smithhhhhhhh"},"14":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:41:04.977Z","email":"john@example.com","id":47,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:41:04.977Z","worker_name":"John Smithhhhhhhh"},"15":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:42:36.256Z","email":"john@example.com","id":48,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:42:36.256Z","worker_name":"John Smithhhhhhhh"},"16":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:49:44.979Z","email":"john@example.com","id":49,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:49:44.979Z","worker_name":"John Smithhhhhhhh"},"17":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T19:51:14.311Z","email":"john@example.com","id":50,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T19:51:14.311Z","worker_name":"John Smithhhhhhhh"},"18":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:15:22.939Z","email":"john@example.com","id":51,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:15:22.939Z","worker_name":"John Smithhhhhhhh"},"19":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:19:18.408Z","email":"john@example.com","id":52,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:19:18.408Z","worker_name":"John Smithhhhhhhh"},"2":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-12T18:07:55.033Z","email":"john@example.com","id":33,"phone_number":"123-456-7890","role_id":2,"sale_promocode":"{ code: 'SALE123', discount: 10 }","status_id":1,"updated_by_id":1,"updated_date":"2023-08-12T18:07:55.033Z","worker_name":"John Smith"},"20":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:39:52.893Z","email":"john@example.com","id":53,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:39:52.893Z","worker_name":"John Smithhhhhhhh"},"21":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T20:41:17.137Z","email":"john@example.com","id":54,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T20:41:17.137Z","worker_name":"John Smithhhhhhhh"},"22":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:32:47.877Z","email":"john@example.com","id":55,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:32:47.877Z","worker_name":"John Smithhhhhhhfffffh"},"23":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:40:48.990Z","email":"john@example.com","id":56,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:40:48.990Z","worker_name":"John Smithhhhhhhfffffh"},"24":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:45:23.828Z","email":"john@example.com","id":57,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:45:23.828Z","worker_name":"John Smithhhhhhhfffffh"},"25":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:51:40.766Z","email":"john@example.com","id":58,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:51:40.766Z","worker_name":"John Smithhhhhhhfffffh"},"26":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-17T06:52:13.414Z","email":"john@example.com","id":59,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-17T06:52:13.414Z","worker_name":"John Smithhhhhhhfffffh"},"3":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:37:59.345Z","email":"john@example.com","id":36,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:37:59.345Z","worker_name":"John Smithhhhhhhh"},"4":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:46:10.363Z","email":"john@example.com","id":37,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:46:10.363Z","worker_name":"John Smithhhhhhhh"},"5":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:49:46.979Z","email":"john@example.com","id":38,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:49:46.979Z","worker_name":"John Smithhhhhhhh"},"6":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:07.650Z","email":"john@example.com","id":39,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:07.650Z","worker_name":"John Smithhhhhhhh"},"7":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:50:32.388Z","email":"john@example.com","id":40,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:50:32.388Z","worker_name":"John Smithhhhhhhh"},"8":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:52:22.501Z","email":"john@example.com","id":41,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:52:22.501Z","worker_name":"John Smithhhhhhhh"},"9":{"barcode":12345,"created_by_id":1,"created_date":"2023-08-16T18:54:17.999Z","email":"john@example.com","id":42,"phone_number":"123-456-7890","role_id":2,"sale_promocode":{"code":"SALE123","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-16T18:54:17.999Z","worker_name":"John Smithhhhhhhh"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T16:02:27.937Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:07:25.106Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:07:25.150Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:14:35.834Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:14:35.969Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:14:39.460Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:14:39.491Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:14:42.031Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:14:42.063Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:14:44.204Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:14:44.240Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:14:53.166Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:14:53.199Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:15:03.914Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:15:03.949Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:15:05.378Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:15:05.412Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:15:07.106Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:15:07.140Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:18:01.553Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:18:01.590Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:18:05.383Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:18:05.415Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:18:14.401Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:18:14.435Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:18:48.963Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:18:48.996Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:19:13.215Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:19:13.250Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:19:22.283Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:19:22.316Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:19:26.618Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:19:26.656Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:19:36.834Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:19:36.867Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:02.513Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:02.548Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:20.508Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:20.542Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:24.509Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:24.542Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:27.883Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:27.916Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:30.219Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:30.251Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:20:48.837Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:20:48.871Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:21:33.451Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:21:33.488Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:21:50.287Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:21:50.331Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:22:08.623Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:22:08.657Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:13.335Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:13.369Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:29.254Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:29.287Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:31.478Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:31.511Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:34.492Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:34.526Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:36.170Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:36.204Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:39.877Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:39.918Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:42.450Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:42.596Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:47.990Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:48.020Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:49.614Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:49.645Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:23:51.777Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:23:51.813Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:32:35.569Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:32:35.602Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:33:12.625Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:33:12.659Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:35:03.095Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:35:03.128Z"}
+{"0":{"barcode":123456789,"created_by_id":1,"email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"worker_name":"Artem Rudman"},"level":"info","message":"Worker was inserted:","timestamp":"2023-08-19T16:35:52.540Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:43:35.866Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:43:35.898Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:43:39.276Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:43:39.309Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:43:40.887Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:43:40.922Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:43:42.576Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:43:42.608Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:18.733Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:18.766Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:26.968Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:27.003Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:30.886Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:30.918Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:34.152Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:34.187Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:38.978Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:39.014Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:43.044Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:43.077Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:44.099Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:44.134Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:46.839Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:46.872Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:45:51.427Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:45:51.460Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:46:26.798Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:46:26.831Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:46:39.426Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:46:39.459Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:46:50.784Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:46:50.917Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:46:51.803Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:46:51.842Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:01.309Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:01.343Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:07.132Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:07.166Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:09.668Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:09.699Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:17.436Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:17.472Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:19.218Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:19.251Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:47:57.584Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:47:57.721Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:26.502Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:26.539Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:34.589Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:34.622Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:37.020Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:37.055Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:46.337Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:46.372Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:48.679Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:48.714Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:51.511Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:51.544Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:56.724Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:56.760Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:48:57.760Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:48:57.795Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:49:25.428Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:49:25.461Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:49:26.691Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:49:26.725Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:49:28.808Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:49:28.842Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:49:43.499Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:49:43.533Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:29.030Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:29.066Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:30.057Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:30.093Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:34.936Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:35.072Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:38.776Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:38.812Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:43.566Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:43.604Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:45.890Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:45.942Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:47.179Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:47.212Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:49.822Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:49.855Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:50:55.609Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:50:55.663Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:51:06.110Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:51:06.148Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:51:12.994Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:51:13.032Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:51:18.843Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:51:18.880Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:52:05.989Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:52:06.024Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:52:43.035Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:52:43.067Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:52:48.203Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:52:48.237Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:53:00.903Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:53:00.937Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:53:34.485Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:53:34.522Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:53:40.312Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:53:40.347Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:53:41.924Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:53:41.958Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:53:54.773Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:53:54.804Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:56:26.562Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:56:26.602Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:56:31.457Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:56:31.492Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:56:33.257Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:56:33.290Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:58:56.867Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:58:57.011Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:58:58.815Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:58:58.849Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:59:01.984Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:59:02.019Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:59:04.515Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:59:04.551Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:59:26.225Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:59:26.260Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:59:36.604Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:59:36.747Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T16:59:42.458Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T16:59:42.493Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:02:03.864Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:02:03.898Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:02:15.783Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:02:15.815Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:02:17.648Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:02:17.682Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:04:45.263Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:04:45.296Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:04:55.509Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:04:55.547Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:06.732Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:06.768Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:16.117Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:16.155Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:19.000Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:19.039Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:20.043Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:20.081Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:27.929Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:27.964Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:05:32.116Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:05:32.153Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:08:47.630Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:08:47.664Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:08:50.986Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:08:51.021Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:08:54.814Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:08:54.849Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:08:57.980Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:08:58.013Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:09:34.358Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:09:34.393Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:10:31.317Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:10:31.353Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:10:35.435Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:10:35.471Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:10:55.391Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:10:55.425Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:11:11.336Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:11:11.373Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:07.728Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:07.764Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:14.940Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:14.973Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:20.497Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:20.531Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:46.100Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:46.135Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:50.447Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:50.483Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:12:53.053Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:12:53.191Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:01.103Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:01.153Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:05.732Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:05.765Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:07.234Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:07.268Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:08.785Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:08.819Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:11.678Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:11.715Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:14.984Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:15.017Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:17.320Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:17.354Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:18.586Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:18.732Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:21.531Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:21.570Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:26.730Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:26.784Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:13:28.774Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:13:28.810Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:13:30.767Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:14:13.597Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:14:13.635Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:14:59.167Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:14:59.199Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:15:02.244Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:15:02.283Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:15:07.713Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:15:07.749Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:18:36.932Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:19:39.798Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:19:39.838Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:19:42.725Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:19:42.760Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:20:18.973Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:20:23.591Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:20:23.625Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:20:24.986Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:20:25.026Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:20:38.822Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:23:06.209Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:23:06.253Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:25:11.731Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:26:39.286Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:26:39.429Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:26:41.444Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:26:41.482Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:26:48.141Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:26:48.174Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:27:36.992Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:27:37.027Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:27:44.900Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:27:44.939Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:28:42.026Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:28:42.066Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:28:58.058Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:28:58.096Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:29:07.057Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:29:07.094Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:29:51.074Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:29:51.111Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:29:57.623Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:29:57.660Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:31:28.317Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:31:28.351Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:31:35.374Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:31:35.407Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:34:58.988Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:35:28.283Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:35:28.317Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:35:30.358Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:35:32.810Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:35:34.382Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:35:35.833Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:38:42.792Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:38:44.044Z"}
+{"0":{"created_date":"2023-08-12T18:28:50.999Z","id":1,"role_name":"technical director","updated_date":"2023-08-12T18:28:50.999Z"},"1":{"created_date":"2023-08-12T18:30:32.280Z","id":2,"role_name":"executive director","updated_date":"2023-08-12T18:30:32.280Z"},"2":{"created_date":"2023-08-12T18:30:44.779Z","id":3,"role_name":"manager","updated_date":"2023-08-12T18:30:44.779Z"},"3":{"created_date":"2023-08-12T18:30:52.050Z","id":4,"role_name":"warehouse worker","updated_date":"2023-08-12T18:30:52.050Z"},"4":{"created_date":"2023-08-12T18:30:59.656Z","id":5,"role_name":"deliveryman","updated_date":"2023-08-12T18:30:59.656Z"},"5":{"created_date":"2023-08-12T18:31:04.953Z","id":6,"role_name":"technical support","updated_date":"2023-08-12T18:31:04.953Z"},"6":{"created_date":"2023-08-12T18:31:11.872Z","id":7,"role_name":"customer support","updated_date":"2023-08-12T18:31:11.872Z"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:38:47.093Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:41:20.342Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:23.493Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:23.527Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:26.696Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:26.729Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:28.796Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:28.830Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:33.188Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:33.221Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:37.835Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:37.866Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:39.549Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:39.582Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:40.731Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:40.764Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:48.602Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:48.635Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:57.046Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:57.079Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:44:58.182Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:44:58.219Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:45:09.144Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:45:09.176Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:45:20.785Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:45:20.821Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:45:50.372Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:45:50.408Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:45:53.761Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:45:53.795Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:00.847Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:00.882Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:04.126Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:04.159Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:08.839Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:08.873Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:12.153Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:12.187Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:14.717Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:14.867Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:19.034Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:19.071Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:46:29.842Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:46:29.880Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:46:48.823Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:47:16.595Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:31.093Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:31.132Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:32.589Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:32.745Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:35.144Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:35.181Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:37.561Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:37.594Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:38.988Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:39.023Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:47:58.281Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:47:58.314Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:48:06.520Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:48:06.553Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:48:08.496Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:48:20.984Z"}
+{"0":{"created_by_id":1,"created_date":"2023-08-19T16:39:43.457Z","email":"artemrudman1994@gmail.com","general_status_id":1,"id":1,"password_hash":"$2a$10$2xEYalhtLRwFcPHc7814ZeJOo7IbVRwWpv/tsJ4huSLB1FsplhiPO","payment_info":{},"phone_number":"+(972)51-585-99-41","sale_promocode":{},"updated_by_id":1,"updated_date":"2023-08-19T16:39:43.457Z","user_name":"Artem Rudman"},"1":{"created_by_id":1,"created_date":"2023-08-19T17:37:17.241Z","email":"mariazatsepina1997@gmail.com","general_status_id":1,"id":2,"password_hash":"$2a$10$GlgKWMdg1ribvAnYBeg6E.OaXVIhZ340sJHrr.IDIMT63dLFOiIQm","payment_info":{},"phone_number":"+(972)51-585-99-40","sale_promocode":{},"updated_by_id":1,"updated_date":"2023-08-19T17:37:17.241Z","user_name":"Maria Zatsepina"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:49:40.107Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:50:04.083Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:50:04.117Z"}
+{"level":"info","message":"user with email artemrudman1994@gmail.com logged in successfully","timestamp":"2023-08-19T17:50:48.706Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:53:47.579Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:53:47.615Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:53:50.728Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:53:50.760Z"}
+{"0":{"barcode_hash":"$2a$10$lAgpZkJTflk6bD3ms1pcbOocGYFBDozEllPzBIuMKHPV7KFDGtlFu","created_by_id":1,"created_date":"2023-08-19T17:20:13.114Z","email":"artemrudman1994@gmail.com","id":1,"phone_number":"+(972)51-585-99-41","role_id":1,"sale_promocode":{"code":"SALE10","discount":10},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:20:13.114Z","worker_name":"Artem Rudman"},"1":{"barcode_hash":"$2a$10$mZ/VUzcC9mPO0FV8MeSpQO1pvU.DfAuvxMheV8x/91wkdCR/lsUcS","created_by_id":1,"created_date":"2023-08-19T17:21:47.984Z","email":"dimakhamkov2008@gmail.com","id":2,"phone_number":"+(7)913-590-37-91","role_id":6,"sale_promocode":{"code":"SALE5","discount":5},"status_id":1,"updated_by_id":1,"updated_date":"2023-08-19T17:21:47.984Z","worker_name":"Dima Khamkov"},"level":"info","message":"All workers below:","timestamp":"2023-08-19T17:54:35.675Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:57:11.758Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:57:11.795Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:57:45.087Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:57:45.120Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T17:59:18.537Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T17:59:18.576Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:00:36.679Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:00:36.715Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:00:41.598Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:00:41.634Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:00:54.371Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:00:54.407Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:00:57.119Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:00:57.259Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:00:59.102Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:00:59.137Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:01:01.489Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:01:01.524Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:01:10.155Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:01:10.298Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:02:11.030Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:02:11.068Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:02:12.716Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:02:12.751Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:02:17.292Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:02:17.325Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:02:18.409Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:02:18.449Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:02:56.232Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:02:56.266Z"}
+{"level":"info","message":"app is running on port 8080","timestamp":"2023-08-19T18:03:08.949Z"}
+{"level":"info","message":"Connected to the database","timestamp":"2023-08-19T18:03:08.984Z"}
