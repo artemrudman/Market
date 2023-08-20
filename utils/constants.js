@@ -1,2 +1,9 @@
 export const DAY = 24 * 60 * 60 * 1000,
-  WEEK = 7 * 24 * 60 * 60 * 1000;
+  WEEK = 7 * 24 * 60 * 60 * 1000,
+  TECHNICAL_DIRECTOR = 1, /*'technical director',*/
+  EXECUTIVE_DIRECTOR = 2, /*'executive director',*/
+  MANAGER = 3, /*'manager',*/
+  WAREHOUSE_WORKER = 4, /*'warehouse worker',*/
+  DELIVERYMAN = 5, /*'deliveryman',*/
+  TECHNICAL_SUPPORT = 6, /*'technical support',*/
+  CUSTOMER_SUPPORT = 7 /*'customer support'*/

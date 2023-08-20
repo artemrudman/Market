@@ -2,7 +2,7 @@ Workers
     Technical Director 
     {
       "worker_name": "Artem Rudman",
-      "email": "artemrudman1994@gmail.com",
+      "email": "artemrudman@gmail.com",
       "barcode": 123456789,
     }
 

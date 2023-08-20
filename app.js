@@ -5,8 +5,9 @@ import { client } from "./database.mjs";
 import { signup, login } from "./controllers/userAuthControllers.js";
 import { insertRouter } from "./routes/allAddRoutes.js";
 import { getRouter } from "./routes/allGetRoutes.js";
-import { protect } from "./services/protectEndpoints.js"; 
+import { protect, restrictTo } from "./services/protectEndpoints.js"; 
 import { registerNewWorkerByTechnicalDirector, loginWorker } from "./controllers/workerAuthControllers.js";
+import { TECHNICAL_DIRECTOR, TECHNICAL_SUPPORT } from "./utils/constants.js";
 
 
 dotenv.config({ path: "./config.env" });
@@ -21,9 +22,9 @@ app.post("/signup", signup);
 app.post("/login", login);
 
 
-app.use("/get", protect, getRouter);
-app.use("/add", protect, insertRouter);
-app.use("/regular_shop", insertRouter);
+app.use("/get", protect, restrictTo(TECHNICAL_DIRECTOR, TECHNICAL_SUPPORT), getRouter);
+app.use("/add", protect, restrictTo(TECHNICAL_DIRECTOR), insertRouter);
+// app.use("/regular_shop", insertRouter);
 
 
 
