@@ -1,9 +1,6 @@
-import dotenv from "dotenv";
-
-dotenv.config({ path: "./config.env" });
-
 import express from "express";
 import { logger } from "./logs/logger.js";
+import dotenv from "dotenv";
 import { client } from "./database.mjs";
 import { signup, login } from "./controllers/userAuthControllers.js";
 import { insertRouter } from "./routes/allAddRoutes.js";
@@ -11,6 +8,8 @@ import { getRouter } from "./routes/allGetRoutes.js";
 import { protect } from "./services/protectEndpoints.js"; 
 import { registerNewWorkerByTechnicalDirector, loginWorker } from "./controllers/workerAuthControllers.js";
 
+
+dotenv.config({ path: "./config.env" });
 
 const app = express();
 app.disable("x-powered-by");
