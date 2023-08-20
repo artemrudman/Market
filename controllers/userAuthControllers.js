@@ -52,7 +52,7 @@ export const login = catchAsync(async (req, res, next) => {
 
   //1) check if the email and password exist
   if (!email || !user_password) {
-    throw next(new AppError("please type your email and password", 400));
+    throw next(new AppError("Please type your email and password", 400));
   }
   // 2) check if the user and password are correct
   const user = await client.query(getUserQueryByEmail, [email]);

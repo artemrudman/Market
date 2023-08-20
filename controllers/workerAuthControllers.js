@@ -11,19 +11,20 @@ import { getWorkerQueryByEmail } from "../utils/queryConstants.js";
 import { logger } from "../logs/logger.js";
 
 export const registerNewWorkerByTechnicalDirector = catchAsync(async (req, res, next) => {
+  const {
+    worker_name,
+    barcode,
+    created_by_id,
+    updated_by_id,
+    role_id,
+    status_id,
+    email,
+    phone_number,
+    sale_promocode
+  } = req.body;
+  const saltRounds = 10;
+  
   try {
-    const {
-      worker_name,
-      barcode,
-      created_by_id,
-      updated_by_id,
-      role_id,
-      status_id,
-      email,
-      phone_number,
-      sale_promocode
-    } = req.body;
-    const saltRounds = 10;
     const hashedPassword = await bcrypt.hash(barcode.toString(), saltRounds);
     const newUser = await client.query(
       `INSERT INTO workers (worker_name,
@@ -60,7 +61,7 @@ export const loginWorker = catchAsync(async (req, res, next) => {
 
   //1) check if the email and password exist
   if (!email || !barcode) {
-    throw next(new AppError("please type your email and barcode", 400));
+    throw next(new AppError("Please type your email and barcode", 400));
   }
   // 2) check if the user and password are correct
   const worker = await client.query(getWorkerQueryByEmail, [email]);
