@@ -1,4 +1,5 @@
 import express from "express";
+import { Validator, ValidationError } from "express-json-validator-middleware";
 import { logger } from "./logs/logger.js";
 import dotenv from "dotenv";
 import { client } from "./database.mjs";
@@ -11,11 +12,12 @@ import { registerNewWorkerByTechnicalDirector, loginWorker } from "./controllers
 
 dotenv.config({ path: "./config.env" });
 
+const { validate } = new Validator(); // TODO: Сделать валидацию роутов
 const app = express();
 app.disable("x-powered-by");
 app.use(express.json());
 
-app.post("/register_new_worker", protect, registerNewWorkerByTechnicalDirector);
+app.post("/register_new_worker",  protect, registerNewWorkerByTechnicalDirector);
 app.post("/login_worker", loginWorker);
 
 app.post("/signup", signup);
@@ -36,6 +38,16 @@ client
   .catch((err) => {
     console.error("Error connecting to the database", err);
   });
+
+app.use((error, request, response, next) => {
+  // Check the error is a validation error
+  if (error instanceof ValidationError) {
+    throw next(new AppError("Data is incorrect", 400));
+  } else {
+    // Pass error on if not a validation error
+    next(error);
+  }
+});
 
 const server = app.listen(process.env.PORT || 8080, () => {
   logger.info(`app is running on port ${process.env.PORT}`);
