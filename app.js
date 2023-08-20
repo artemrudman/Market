@@ -17,7 +17,7 @@ const app = express();
 app.disable("x-powered-by");
 app.use(express.json());
 
-app.post("/register_new_worker",  protect, registerNewWorkerByTechnicalDirector);
+app.post("/register_new_worker", protect, registerNewWorkerByTechnicalDirector);
 app.post("/login_worker", loginWorker);
 
 app.post("/signup", signup);
