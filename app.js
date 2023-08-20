@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import express from "express";
+import cookieParser from "cookie-parser";
 import { logger } from "./logs/logger.js";
 import { client } from "./database.mjs";
 import { signup, login } from "./controllers/userAuthControllers.js";
@@ -12,6 +13,7 @@ dotenv.config({ path: "./config.env" });
 
 const app = express();
 app.disable("x-powered-by");
+app.use(cookieParser());
 app.use(express.json());
 
 app.post("/register_new_worker",  protect, registerNewWorkerByTechnicalDirector);
