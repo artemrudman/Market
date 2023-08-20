@@ -5,7 +5,7 @@ CREATE TABLE branch(
 	branch_location VARCHAR(100) NOT NULL,
 	address VARCHAR(100) NOT NULL,
 	timezone VARCHAR(50) NOT NULL,
-	branch_status_id INT NOT NULL, /* TODO: Create branch_statuses  */
+	branch_status_id INT NOT NULL,
 	work_hours VARCHAR(150) NOT NULL,
 	phone_number VARCHAR(50) NOT NULL,
     created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
