@@ -3,8 +3,7 @@ import jwt from "jsonwebtoken";
 import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/appError.js";
 import { client } from "../database.mjs";
-import { getWorkerQueryById } from "../utils/queryConstants.js";
-
+import { getWorkerQueryById, getUserQueryById } from "../utils/queryConstants.js";
 
 export const protect = catchAsync(async (req, res, next) => {
     // 1) Checking the availability of a token
@@ -24,7 +23,7 @@ export const protect = catchAsync(async (req, res, next) => {
       return next(new AppError("The user associated with this token does not exist", 404));
     }
 
-  
+    //Implement this logic later
     // // 4) Check if user changed password after the token was issued
     // if (user.changedPasswordAfter(decoded.iat)) {
     //   return next(new AppError('User recently changed password', 401));
@@ -36,12 +35,15 @@ export const protect = catchAsync(async (req, res, next) => {
   });
   
   
-export const restrictTo = (...roles) => {
-    return (req, res, next) => {
-      if (!roles.includes(req.user.role)) {
-        return next(new AppError('You dont have permission', 403));
-      }
-      next();
-    };
-  };
+=======
   
+export const restrictTo = (...roles) => {
+  // console.log(...roles);
+  return (req, res, next) => {
+    console.log(req.user[0]);
+    if (!roles.includes(req.user[0].role_id)) {
+      return next(new AppError("You dont have permission", 403));
+    }
+    next();
+  };
+};

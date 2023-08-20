@@ -360,6 +360,7 @@ OTHER NOTICES
 	Refer a friends
 	
 Questions	
+	How to realize the search? 
 	How to realize the cart? (first answer in chatGPT) all answers 9 august
 	How to realize Payment? (first answer in chatGPT)
 	How to realize map? (first answer in chatGPT)
