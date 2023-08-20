@@ -1,14 +1,14 @@
 import jwt from "jsonwebtoken";
 import { DAY } from "../utils/constants.js";
 
-export const signToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_TOKEN_SECRET, {
+export const signToken = (id, type) => {
+  return jwt.sign({ id, type }, process.env.JWT_TOKEN_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
   });
 };
 
-export const createSendToken = (user, statusCode, res) => {
-  const token = signToken(user.id);
+export const createSendToken = (user, type, statusCode, res) => {
+  const token = signToken(user.id, type);
 
   res.cookie("token", token, {
     expires: new Date(Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * DAY),

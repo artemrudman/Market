@@ -13,7 +13,7 @@ export const protect = catchAsync(async (req, res, next) => {
   
     // 2) Verification this token
     const decoded = await promisify(jwt.verify)(req.cookies.token, process.env.JWT_TOKEN_SECRET);
-    // console.log(decoded);
+    //console.log(decoded);
   
     // // 3) Check if user still exists
   
@@ -31,6 +31,7 @@ export const protect = catchAsync(async (req, res, next) => {
   
     // // GRANT ACCESS TO PROTECTED ROUTE
     req.user = result[0];
+    req.userType = decoded.type;
     next();
   });
   

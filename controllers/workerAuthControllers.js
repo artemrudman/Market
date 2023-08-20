@@ -49,7 +49,7 @@ export const registerNewWorkerByTechnicalDirector = catchAsync(async (req, res, 
       ]
     );
 
-    createSendToken(newUser.rows[0], 201, res);
+    createSendToken(newUser.rows[0], "worker", 201, res);
   } catch (error) {
     // Handle any errors that occur during signup or token creation
     next(error);
@@ -72,7 +72,7 @@ export const loginWorker = catchAsync(async (req, res, next) => {
 
   // console.log(user.rows[0].id);
   // 3) if everything ok, send token to client
-  createSendToken(worker.rows[0], 200, res);
+  createSendToken(worker.rows[0], "worker", 200, res);
   logger.info(`user with email ${email} logged in successfully`)
 });
 
