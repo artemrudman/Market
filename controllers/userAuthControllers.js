@@ -40,7 +40,7 @@ export const signup = catchAsync(async (req, res, next) => {
       ]
     );
 
-    createSendToken(newUser.rows[0], 201, res);
+    createSendToken(newUser.rows[0], "default", 201, res);
   } catch (error) {
     // Handle any errors that occur during signup or token creation
     next(error);
@@ -63,7 +63,9 @@ export const login = catchAsync(async (req, res, next) => {
 
   // console.log(user.rows[0].id);
   // 3) if everything ok, send token to client
-  createSendToken(user.rows[0], 200, res);
+
+  // Второй аргумент функции - тип пользователя. Например worker, deliveryman, default
+  createSendToken(user.rows[0], "default", 200, res);
 });
 
 export const forgotPassword = catchAsync(async (req, res, next) => {
