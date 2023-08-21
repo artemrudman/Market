@@ -68,148 +68,148 @@ export const login = catchAsync(async (req, res, next) => {
   createSendToken(user.rows[0], "default", 200, res);
 });
 
-export const forgotPassword = catchAsync(async (req, res, next) => {
-  // 1) Get user based on POSTed email
+// export const forgotPassword = catchAsync(async (req, res, next) => {
+//   // 1) Get user based on POSTed email
 
-  const { email } = req.body;
-  const { rows: users } = await client.query(getUserQueryByEmail, email);
+//   const { email } = req.body;
+//   const { rows: users } = await client.query(getUserQueryByEmail, email);
 
-  if (users.length === 0) {
-    return next(new AppError("User with this email address doesn't exist", 404));
-  }
+//   if (users.length === 0) {
+//     return next(new AppError("User with this email address doesn't exist", 404));
+//   }
 
-  const user = users[0];
+//   const user = users[0];
 
-  // 2) Generate the random reset token
-  const resetToken = crypto.randomBytes(32).toString("hex");
+//   // 2) Generate the random reset token
+//   const resetToken = crypto.randomBytes(32).toString("hex");
 
-  const updateTokenQuery = `
-    UPDATE users
-    SET password_reset_token = $1, password_reset_expires = $2
-    WHERE id = $3
-  `;
+//   const updateTokenQuery = `
+//     UPDATE users
+//     SET password_reset_token = $1, password_reset_expires = $2
+//     WHERE id = $3
+//   `;
 
-  const tokenExpiration = Date.now() + 10 * 60 * 1000; // 10 minutes
-  const updateValues = [resetToken, tokenExpiration, user.id];
-  await client.query(updateTokenQuery, updateValues);
+//   const tokenExpiration = Date.now() + 10 * 60 * 1000; // 10 minutes
+//   const updateValues = [resetToken, tokenExpiration, user.id];
+//   await client.query(updateTokenQuery, updateValues);
 
-  // 3) Send it to user's email
-  const resetURL = `${req.protocol}://${req.get("host")}/user/reset-password/${resetToken}`;
+//   // 3) Send it to user's email
+//   const resetURL = `${req.protocol}://${req.get("host")}/user/reset-password/${resetToken}`;
 
-  const message = `Forgot your password? Submit a patch request with your new password and passwordConfirm to: ${resetURL}.\n If you didn't forget your password - ignore this email.`;
+//   const message = `Forgot your password? Submit a patch request with your new password and passwordConfirm to: ${resetURL}.\n If you didn't forget your password - ignore this email.`;
 
-  try {
-    await sendEmail({
-      email: user.email,
-      subject: "Your password reset token (valid 10 min)",
-      message,
-    });
+//   try {
+//     await sendEmail({
+//       email: user.email,
+//       subject: "Your password reset token (valid 10 min)",
+//       message,
+//     });
 
-    res.status(200).json({
-      status: "success",
-      message: "Token sent to email!",
-    });
-  } catch (err) {
-    const clearTokenQuery = `
-      UPDATE users
-      SET password_reset_token = NULL, password_reset_expires = NULL
-      WHERE id = $1
-    `;
+//     res.status(200).json({
+//       status: "success",
+//       message: "Token sent to email!",
+//     });
+//   } catch (err) {
+//     const clearTokenQuery = `
+//       UPDATE users
+//       SET password_reset_token = NULL, password_reset_expires = NULL
+//       WHERE id = $1
+//     `;
 
-    await client.query(clearTokenQuery, [user.id]);
+//     await client.query(clearTokenQuery, [user.id]);
 
-    return next(new AppError("There was an error sending the email. Try again later!", 500));
-  }
-});
+//     return next(new AppError("There was an error sending the email. Try again later!", 500));
+//   }
+// });
 
-export const resetPassword = catchAsync(async (req, res, next) => {
-  // 1) Get user based on the token
-  const hashedToken = crypto.createHash("sha256").update(req.params.token).digest("hex");
+// export const resetPassword = catchAsync(async (req, res, next) => {
+//   // 1) Get user based on the token
+//   const hashedToken = crypto.createHash("sha256").update(req.params.token).digest("hex");
 
-  const getUserQuery = `
-    SELECT * FROM users
-    WHERE password_reset_token = $1 AND password_reset_expires > NOW()
-  `;
-  const values = [hashedToken];
-  const { rows: users } = await client.query(getUserQuery, values);
+//   const getUserQuery = `
+//     SELECT * FROM users
+//     WHERE password_reset_token = $1 AND password_reset_expires > NOW()
+//   `;
+//   const values = [hashedToken];
+//   const { rows: users } = await client.query(getUserQuery, values);
 
-  if (users.length === 0) {
-    return next(new AppError("Token is invalid or has expired!", 400));
-  }
+//   if (users.length === 0) {
+//     return next(new AppError("Token is invalid or has expired!", 400));
+//   }
 
-  const user = users[0];
+//   const user = users[0];
 
-  // 2) If token has not expired, and there is user, set the new password
-  const saltRounds = 10;
-  const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
+//   // 2) If token has not expired, and there is user, set the new password
+//   const saltRounds = 10;
+//   const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
 
-  const updateUserQuery = `
-    UPDATE users
-    SET password = $1, password_confirm = $2,
-        password_reset_token = NULL, password_reset_expires = NULL
-    WHERE id = $3
-  `;
+//   const updateUserQuery = `
+//     UPDATE users
+//     SET password = $1, password_confirm = $2,
+//         password_reset_token = NULL, password_reset_expires = NULL
+//     WHERE id = $3
+//   `;
 
-  const updateValues = [hashedPassword, req.body.passwordConfirm, user.id];
-  await client.query(updateUserQuery, updateValues);
+//   const updateValues = [hashedPassword, req.body.passwordConfirm, user.id];
+//   await client.query(updateUserQuery, updateValues);
 
-  // 3) Update changedPasswordAt property for the user
-  // Assuming you have a 'changed_password_at' column in your database
-  const updateChangedPasswordQuery = `
-    UPDATE users
-    SET changed_password_at = NOW()
-    WHERE id = $1
-  `;
-  await client.query(updateChangedPasswordQuery, [user.id]);
+//   // 3) Update changedPasswordAt property for the user
+//   // Assuming you have a 'changed_password_at' column in your database
+//   const updateChangedPasswordQuery = `
+//     UPDATE users
+//     SET changed_password_at = NOW()
+//     WHERE id = $1
+//   `;
+//   await client.query(updateChangedPasswordQuery, [user.id]);
 
-  // 4) Log the user in, send JWT
-  const token = signToken(user.id);
+//   // 4) Log the user in, send JWT
+//   const token = signToken(user.id);
 
-  // Send the token and user details in the response
-  res.status(200).json({
-    status: "success",
-    token,
-    user,
-  });
-});
+//   // Send the token and user details in the response
+//   res.status(200).json({
+//     status: "success",
+//     token,
+//     user,
+//   });
+// });
 
-export const updatePassword = catchAsync(async (req, res, next) => {
-  // 1) Get user from database
-  const {id} = req.user;
-  const { rows: users } = await client.query(getUserQueryByEmail, id);
+// export const updatePassword = catchAsync(async (req, res, next) => {
+//   // 1) Get user from database
+//   const {id} = req.user;
+//   const { rows: users } = await client.query(getUserQueryByEmail, id);
 
-  if (users.length === 0) {
-    return next(new AppError("User not found", 404));
-  }
+//   if (users.length === 0) {
+//     return next(new AppError("User not found", 404));
+//   }
 
-  const user = users[0];
+//   const user = users[0];
 
-  // 2) Check if POSTed current password is correct
+//   // 2) Check if POSTed current password is correct
 
-  if (!(await isCorrectPassword(req.body.passwordCurrent, user.password))) {
-    return next(new AppError("Your current password is wrong!", 401));
-  }
+//   if (!(await isCorrectPassword(req.body.passwordCurrent, user.password))) {
+//     return next(new AppError("Your current password is wrong!", 401));
+//   }
 
-  // Update password and passwordConfirm
-  const saltRounds = 10;
-  const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
+//   // Update password and passwordConfirm
+//   const saltRounds = 10;
+//   const hashedPassword = await bcrypt.hash(req.body.password, saltRounds);
 
-  const updateUserQuery = `
-    UPDATE users
-    SET password = $1, password_confirm = $2
-    WHERE id = $3
-  `;
+//   const updateUserQuery = `
+//     UPDATE users
+//     SET password = $1, password_confirm = $2
+//     WHERE id = $3
+//   `;
 
-  const updateValues = [hashedPassword, req.body.passwordConfirm, user.id];
-  await client.query(updateUserQuery, updateValues);
+//   const updateValues = [hashedPassword, req.body.passwordConfirm, user.id];
+//   await client.query(updateUserQuery, updateValues);
 
-  // 4) Log user in, send JWT
-  const token = signToken(user.id);
+//   // 4) Log user in, send JWT
+//   const token = signToken(user.id);
 
-  // Send the token and user details in the response
-  res.status(200).json({
-    status: "success",
-    token,
-    user,
-  });
-});
+//   // Send the token and user details in the response
+//   res.status(200).json({
+//     status: "success",
+//     token,
+//     user,
+//   });
+// });
